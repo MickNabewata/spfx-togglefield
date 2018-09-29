@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://nabewata365.sharepoint.com/sites/SPFxFieldCustomizer/Lists/SampleList/NotCompleted.aspx",
+      "pageUrl": "<your site url>/Lists/SampleList/NotCompleted.aspx",
       "fieldCustomizers": {
         "completed": {
           "id": "4f46bc83-25e7-4644-a7cc-ed152265fc02",
@@ -14,7 +14,7 @@
       }
     },
     "sampleCustomizer": {
-      "pageUrl": "https://nabewata365.sharepoint.com/sites/SPFxFieldCustomizer/Lists/SampleList/NotCompleted.aspx",
+      "pageUrl": "<your site url>/Lists/SampleList/NotCompleted.aspx",
       "fieldCustomizers": {
         "completed": {
           "id": "4f46bc83-25e7-4644-a7cc-ed152265fc02",
