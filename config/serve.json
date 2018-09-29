@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nabewata365.sharepoint.com/sites/SPFxFieldCustomizer/Lists/SampleList/NotCompleted.aspx",
+      "fieldCustomizers": {
+        "completed": {
+          "id": "4f46bc83-25e7-4644-a7cc-ed152265fc02",
+          "properties": {
+          }
+        }
+      }
+    },
+    "sampleCustomizer": {
+      "pageUrl": "https://nabewata365.sharepoint.com/sites/SPFxFieldCustomizer/Lists/SampleList/NotCompleted.aspx",
+      "fieldCustomizers": {
+        "completed": {
+          "id": "4f46bc83-25e7-4644-a7cc-ed152265fc02",
+          "properties": {
+          }
+        }
+      }
+    }
+  }
+}
