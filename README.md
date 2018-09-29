@@ -35,4 +35,4 @@ git clone https://github.com/MickNabewata/spfx-togglefield
 Open following file, and edit according to your environment.  
 　　config > serve.json  
   
-<img src="https://github.com/MickNabewata/spfx-togglefield/wiki/Images/serveJson.jpg" />
+<img src="https://github.com/MickNabewata/spfx-togglefield/wiki/Images/serveJson2.jpg" />
