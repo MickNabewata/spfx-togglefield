@@ -1,26 +1,38 @@
+## 英語が苦手な方へ
+
+日本語の情報は以下にあります。  
+<a href="https://www.micknabewata.com/entry/sharepoint/spfx/fieldCustomizer-sample">SharePoint Framework フィールドカスタマイザーでリストビューに完了ボタンを付けてみた </a>
+
 ## field-customizer-sample
 
-This is where you include your WebPart documentation.
+This sample code include a toggle to update the value of the sharePoint boolean field.
+
+<img src="https://github.com/MickNabewata/spfx-togglefield/wiki/Images/result.jpg" />
 
 ### Building the code
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
+#### Create SharePoint site and list
 
-This package produces the following:
+At first, you need to create a site and list.  
+For this sample, following field and view is required.
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+##### Field
 
-### Build options
+InternalName : completed  
+Field type   : Boolean
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+##### View
+
+Show 'ID' and 'completed' in your list view.  
+Like JSLink, you need to display the columns you want to handle in the field customizer in the view.
+
+#### Clone this repository
+
+git clone https://github.com/MickNabewata/spfx-togglefield
+
+#### Edit serve.json file
+
+Open following file, and edit according to your environment.  
+　　config > serve.json  
+  
+<img src="https://github.com/MickNabewata/spfx-togglefield/wiki/Images/serveJson.jpg" />
